@@ -7,6 +7,7 @@
  * 問③,⑦については、コメントを入れてください。
  *
  */
+
 public class Task1_1 {
 
   public static void main(String[] args) {
@@ -36,6 +37,7 @@ public class Task1_1 {
 
       // ⑧変数 hogeDouble の値を表示
       System.out.println(hogeDouble);
+
   }
 }
 
