@@ -5,14 +5,17 @@
  * 問①〜問④まであります。
  * for文・while文の仕組みを意識しながらコーディングしていきましょう！
  */
+
 public class Task1_5 {
 
   public static void main(String[] args) {
 
       // ① 「みかん」、「りんご」、「ぶどう」、「メロン」の値を設定した配列 fluits を作成してください。
+
         String[] fruits = {"みかん", "りんご", "ぶどう", "メロン"};
 
       // ② for文を使って①で作成した配列を出力しなさい。
+
         for (int i = 0; fruits.length > i; i++) {
           System.out.println(fruits[i]);
         }
@@ -21,6 +24,7 @@ public class Task1_5 {
       /*
       *  [1から100までを出力させる処理]
       */
+
       int i = 1;
       while(i <= 100) {
         System.out.print(i);
@@ -40,6 +44,7 @@ public class Task1_5 {
       *     8 || 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 |
       *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
       */
+
       for (int n = 1; n <= 9; n++) { 
         System.out.print(n + "||");
           for (int j = 1; j <= 9; j++) { 
@@ -47,5 +52,6 @@ public class Task1_5 {
           } 
         System.out.println(); 
       }
+      
   }
 }
