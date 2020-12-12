@@ -8,6 +8,7 @@
  * 問⑤,⑥については、コメントを入れてください。
  *
  */
+
 public class Task1_2 {
 
   public static void main(String[] args) {
