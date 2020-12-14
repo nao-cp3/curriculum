@@ -9,6 +9,7 @@
  * 問⑦については、変数名を使って出力してください。
  *
  */
+
 public class Task1_3 {
 
   public static void main(String[] args) {
@@ -41,5 +42,6 @@ public class Task1_3 {
       System.out.println(remi);
       System.out.println(train);
 
+      
   }
 }
