@@ -19,16 +19,16 @@ public class Check{
             System.out.print(data[i] + " ");
         }
         System.out.println();
-        for (int i = 0; i < 7; i++) {
-            for (int j = 0; j > i; j--) {
+        for (int i = 0; i < 4; i++) {
+            for (int j = 4; j > i; j--) {
                 /*
                 * 問3
                 * 以下、配列の添字を入れてソートを完成させなさい
                 */
-                if(data[3] > data[0]){
-                  int box = data[4];
-                  data[4] = data[4];
-                  data[3] = box;
+                if(data[j-1] > data[j]){
+                  int box = data[j];
+                  data[j] = data[j-1];
+                  data[j-1] = box;
                 }
             }
         }
